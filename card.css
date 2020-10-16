@@ -1,0 +1,56 @@
+.container{
+   text-align: center;
+   justify-content: center;
+  
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline;
+}
+.timer{
+    /* display: flex; */
+    
+    justify-self:center;
+    text-align: center;
+    
+
+}
+
+.item-container{
+    display: flex;
+   
+    border-style: none;
+    border-radius: 10px;
+    /* //box-shadow:5px 10px #888888; */
+    margin-left: 320px;
+    margin-right: 332px;
+  
+    align-items: center;
+
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+   background-color: peru;
+   
+}
+.cards li{
+    width: 139px;
+    height: 101px;
+    background-color: cadetblue;
+    justify-content: space-around;
+    margin: 6px;
+    border-radius: 5px; 
+  
+    
+}
+
+.i{
+    margin-top: 40px;
+    display: none;
+}
